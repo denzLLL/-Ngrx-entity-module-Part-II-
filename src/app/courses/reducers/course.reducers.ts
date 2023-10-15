@@ -9,7 +9,6 @@ import {allCoursesLoaded, courseUpdated} from '../actions';
 //   ids: number[]       // массив id для order (группировки - по убывани, дате, и тд в нашем случае по св-ву seqNo)
 // }
 
-
 export interface CoursesState extends EntityState<Course> {
   allCoursesLoaded: boolean
 }

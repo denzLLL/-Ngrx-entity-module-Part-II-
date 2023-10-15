@@ -18,7 +18,6 @@ export class AppComponent implements OnInit {
     isLoggedOut$: Observable<boolean>;
 
     constructor(private router: Router, private store: Store< AppState>) {
-
     }
 
     ngOnInit() {
